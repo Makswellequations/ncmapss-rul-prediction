@@ -1,0 +1,36 @@
+\begin{tabular}{lllrrr}
+\toprule
+Dataset & Model & Features & rmse & bias & R2 \\
+\midrule
+DS01 & GaussianProcessRegressor & oracle & 8.58 & -0.02 & 0.90 \\
+DS01 & KernelRidge & oracle & 9.42 & 0.06 & 0.88 \\
+DS01 & RandomForestRegressor & oracle & 6.10 & 0.02 & 0.95 \\
+DS01 & Ridge & oracle & 14.67 & 0.94 & 0.71 \\
+DS01 & SupportVectorRegression & oracle & 9.88 & -0.94 & 0.87 \\
+DS02 & GaussianProcessRegressor & oracle & 7.09 & -0.03 & 0.90 \\
+DS02 & KernelRidge & oracle & 6.86 & -0.01 & 0.91 \\
+DS02 & RandomForestRegressor & oracle & 3.50 & 0.03 & 0.98 \\
+DS02 & Ridge & oracle & 12.01 & 0.21 & 0.71 \\
+DS02 & SupportVectorRegression & oracle & 7.15 & -0.84 & 0.90 \\
+DS03 & GaussianProcessRegressor & oracle & 7.32 & -0.01 & 0.89 \\
+DS03 & KernelRidge & oracle & 9.32 & 0.04 & 0.83 \\
+DS03 & RandomForestRegressor & oracle & 2.49 & 0.02 & 0.99 \\
+DS03 & Ridge & oracle & 12.38 & 0.46 & 0.70 \\
+DS03 & SupportVectorRegression & oracle & 9.56 & -0.93 & 0.82 \\
+DS01 & GaussianProcessRegressor & observable & 16.82 & 0.03 & 0.62 \\
+DS01 & KernelRidge & observable & 8.37 & 1.00 & 0.91 \\
+DS01 & RandomForestRegressor & observable & 6.76 & 0.65 & 0.94 \\
+DS01 & Ridge & observable & 14.93 & 0.92 & 0.70 \\
+DS01 & SupportVectorRegression & observable & 8.91 & -0.44 & 0.89 \\
+DS02 & GaussianProcessRegressor & observable & 8.70 & 0.14 & 0.85 \\
+DS02 & KernelRidge & observable & 6.59 & -0.01 & 0.91 \\
+DS02 & RandomForestRegressor & observable & 5.53 & 0.34 & 0.94 \\
+DS02 & Ridge & observable & 10.90 & 0.68 & 0.76 \\
+DS02 & SupportVectorRegression & observable & 7.09 & -0.41 & 0.90 \\
+DS03 & GaussianProcessRegressor & observable & 13.67 & 0.07 & 0.63 \\
+DS03 & KernelRidge & observable & 9.56 & 0.97 & 0.82 \\
+DS03 & RandomForestRegressor & observable & 4.54 & 0.24 & 0.96 \\
+DS03 & Ridge & observable & 12.02 & 0.69 & 0.71 \\
+DS03 & SupportVectorRegression & observable & 9.94 & -0.36 & 0.80 \\
+\bottomrule
+\end{tabular}
